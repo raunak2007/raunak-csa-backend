@@ -25,6 +25,6 @@ public class MvcConfig implements WebMvcConfigurer {
     // This case is GitHub Pages site & local dev site
     @Override
     public void addCorsMappings(CorsRegistry registry) {
-        registry.addMapping("/**").allowedOrigins("https://nighthawkcoders.github.io", "http://localhost:4000");
+        //registry.addMapping("/**").allowedOrigins("https://raunak2007.github.io", "http://localhost:8020");
     }
 }
